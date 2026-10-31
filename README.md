@@ -1,0 +1,103 @@
+<div align="center">
+
+# Hi, I'm Dhvani 👋
+
+<a href="https://github.com/dhvani1403">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&duration=3200&pause=900&color=2E8B7A&center=true&vCenter=true&width=620&lines=Product+Data+Scientist+%40+SimPPL;Research+on+online+platforms+%26+trust+and+safety;Building+responsible+AI+for+healthcare" alt="Typing intro" />
+</a>
+
+<p>
+  <a href="https://www.linkedin.com/in/dhvani-shah-97521b267"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:dhvanishah140304@gmail.com"><img src="https://img.shields.io/badge/Email-1e5a52?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <img src="https://img.shields.io/badge/Mumbai,_India-48605d?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Mumbai, India" />
+</p>
+
+</div>
+
+I'm a data scientist who likes working close to the product. I take a messy question about how people use technology, find out what the data can really say about it, and then build the tool or analysis that helps a team act on the answer. My work so far is about half research and half engineering.
+
+- 🔭 **Now:** Product Data Scientist at [SimPPL](https://simppl.org/team), building research-driven products on social data
+- 🎓 **Studied:** BTech in Information Technology, DJSCE Mumbai (2022–26)
+- 📄 **Research:** first author of *Can User Controls Benefit Value Creation on Platforms?*, accepted at the DPE Forum, Germany
+- 🗣️ **Presented to:** Google, Stanford Trust & Safety, Bluesky and Boston University; my work has been piloted with CNN and featured by Nieman Lab
+- 🤝 **Open to:** research collaborations and conversations with people building startups
+
+---
+
+### ✨ Featured projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/dhvani1403/TrialSafe">🩺 TrialMatch</a></h4>
+      <p>An AI clinical-trial matcher. It reads ClinicalTrials.gov eligibility fine print, checks every rule against a patient's profile, ranks open studies near them and explains each match in plain language.</p>
+      <p>📈 Tested on 75 real patient cases (TREC 2021): NDCG@10 rose from 0.42 to 0.53 once the ranker learned from expert labels</p>
+      <p>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+        <img src="https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="pgvector" />
+        <img src="https://img.shields.io/badge/LLMs-1e5a52?style=flat-square" alt="LLMs" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/dhvani1403/clinical-fairness-audit">⚖️ Hidden Unfairness in Clinical Risk Models</a></h4>
+      <p>Replicates <i>fairness gerrymandering</i> (Kearns et al., 2018) and audits who clinical risk scores miss. It covers 30-day readmission and high healthcare use, and is packaged as an audit tool for quality teams.</p>
+      <p>📈 Among adults with 3+ chronic conditions, the model flags 70% of White patients but only 56% of Hispanic patients</p>
+      <p>
+        <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+        <img src="https://img.shields.io/badge/Fairness-1e5a52?style=flat-square" alt="Fairness" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+**Products I've built at SimPPL**
+- **Arbiter API:** the API behind SimPPL's social-data platform, which turns raw posts into structured insight using LLMs, retrieval and sentiment analytics. Piloted with CNN and public-sector teams in New York and Maryland.
+- **InfluenceCheck:** sponsorship detection and claim verification for beauty and skincare influencers. Demoed to MeitY at the India AI Impact Summit.
+- **Ychance:** ratings for prediction markets on vagueness, manipulation risk and insider-trading risk. I lead it end to end.
+
+---
+
+### 🛠️ Tools I use
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,postgres,sklearn,pytorch,fastapi,react,nextjs,ts,tailwind,docker,aws,githubactions&perline=12" alt="Tech stack" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
+  <img src="https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white" alt="Neo4j" />
+  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="Power BI" />
+  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
+</p>
+
+---
+
+### 📊 GitHub activity
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhvani1403/dhvani1403/output/stats-dark.svg" />
+    <img width="100%" src="https://raw.githubusercontent.com/dhvani1403/dhvani1403/output/stats.svg" alt="Contributions, commits, repositories and streaks" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhvani1403/dhvani1403/output/languages-dark.svg" />
+    <img width="100%" src="https://raw.githubusercontent.com/dhvani1403/dhvani1403/output/languages.svg" alt="Languages across my repositories" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhvani1403/dhvani1403/output/activity-dark.svg" />
+    <img width="100%" src="https://raw.githubusercontent.com/dhvani1403/dhvani1403/output/activity.svg" alt="Contributions per day, last 30 days" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhvani1403/dhvani1403/output/github-snake-dark.svg" />
+    <img width="100%" src="https://raw.githubusercontent.com/dhvani1403/dhvani1403/output/github-snake.svg" alt="Contribution snake" />
+  </picture>
+</p>
+
+<sub>Cards are rebuilt daily by <a href=".github/workflows/profile.yml">a GitHub Action</a> from public GitHub data.</sub>
