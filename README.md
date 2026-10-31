@@ -7,9 +7,10 @@
 </a>
 
 <p>
+  <a href="https://dhvani-shah.vercel.app"><img src="https://img.shields.io/badge/Website-dhvani--shah.vercel.app-1e5a52?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
   <a href="https://www.linkedin.com/in/dhvani-shah-97521b267"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:dhvanishah140304@gmail.com"><img src="https://img.shields.io/badge/Email-1e5a52?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/Mumbai,_India-48605d?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Mumbai, India" />
+  <a href="mailto:dhvanishah140304@gmail.com"><img src="https://img.shields.io/badge/Email-48605d?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <img src="https://img.shields.io/badge/Mumbai,_India-6f8481?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Mumbai, India" />
 </p>
 
 </div>
@@ -18,9 +19,10 @@ I'm a data scientist who likes working close to the product. I take a messy ques
 
 - 🔭 **Now:** Product Data Scientist at [SimPPL](https://simppl.org/team), building research-driven products on social data
 - 🎓 **Studied:** BTech in Information Technology, DJSCE Mumbai (2022–26)
-- 📄 **Research:** first author of *Can User Controls Benefit Value Creation on Platforms?*, accepted at the DPE Forum, Germany
+- 📄 **Research:** 5 papers published or accepted, with Springer, IEEE Xplore, CRC Press and the DPE Forum
 - 🗣️ **Presented to:** Google, Stanford Trust & Safety, Bluesky and Boston University; my work has been piloted with CNN and featured by Nieman Lab
 - 🤝 **Open to:** research collaborations and conversations with people building startups
+- 🌐 **More about me:** [dhvani-shah.vercel.app](https://dhvani-shah.vercel.app)
 
 ---
 
@@ -53,10 +55,28 @@ I'm a data scientist who likes working close to the product. I take a messy ques
   </tr>
 </table>
 
-**Products I've built at SimPPL**
-- **Arbiter API:** the API behind SimPPL's social-data platform, which turns raw posts into structured insight using LLMs, retrieval and sentiment analytics. Piloted with CNN and public-sector teams in New York and Maryland.
-- **InfluenceCheck:** sponsorship detection and claim verification for beauty and skincare influencers. Demoed to MeitY at the India AI Impact Summit.
-- **Ychance:** ratings for prediction markets on vagueness, manipulation risk and insider-trading risk. I lead it end to end.
+---
+
+### 🚀 Products and other work
+
+| | What it is | Where it went |
+|---|---|---|
+| **Arbiter API** | The API behind SimPPL's social-data platform. It turns raw posts into structured insight using LLMs, retrieval and sentiment analytics. | Piloted with CNN and public-sector teams in New York and Maryland; featured in Nieman Lab |
+| **InfluenceCheck** | Sponsorship detection and claim verification for beauty and skincare influencers, across 100 creators and 75+ products | Demoed to MeitY at the India AI Impact Summit and to ASCI |
+| **Ychance** | Ratings for prediction markets on vagueness, manipulation risk and insider-trading risk, with AWS ingestion and LLM scoring | I lead it end to end, from research to pilot interviews |
+| **Iffy News domain scores** | Quality scores for news sites from website metadata and AI, for a client project I led | ~10,000 domains scored |
+| **Agricultural data lake** (Omdena) | ETL from USDA, FAOSTAT, Eurostat, IBGE and APS India into one Parquet lake, plus satellite crop features | 5+ global sources |
+| **It Depends Where They Live** | A survey report on how children aged 8 to 15 in Delhi, Lucknow and Surat use social media | 900+ respondents |
+
+---
+
+### 📄 Research
+
+1. **Can User Controls Benefit Value Creation on Platforms?**<br/>**Shah, D.**, Mehta, S. · *DPE Forum, Germany* · accepted<br/><sub>A matched causal study of 10,712 Bluesky users. Presented to Google, Bluesky, Stanford Trust &amp; Safety and Boston University.</sub>
+2. **An Intelligent Framework for Non-Parametric Test Prediction and Execution Using Machine Learning**<br/>**Shah, D.**, Chandaria, D., Shah, H., Patel, J. · *Springer*, Vol. 1748, Issue 21 (2026)
+3. **Multilingual Phishing Analysis: Feature-Based Scoring and Level Classification**<br/>Shah, H., Sanghvi, D., **Shah, D.**, Patel, J., Sawant, V., Satam, P. · *IEEE Xplore*, Issue 23 (2026)
+4. **Stock Market Prediction Using News API and Deep Learning Algorithms**<br/>Shah, H., **Shah, D.**, Parekh, D., Patel, J., Sharma, R. · *CRC Press*, Vol. 1 (2026)
+5. **AQI Insight**<br/>**Shah, D.**, Shah, H., Parekh, D., Patel, J. · accepted for publication
 
 ---
 
@@ -74,30 +94,9 @@ I'm a data scientist who likes working close to the product. I take a messy ques
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
 </p>
 
----
-
-### 📊 GitHub activity
-
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhvani1403/dhvani1403/output/stats-dark.svg" />
-    <img width="100%" src="https://raw.githubusercontent.com/dhvani1403/dhvani1403/output/stats.svg" alt="Contributions, commits, repositories and streaks" />
-  </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhvani1403/dhvani1403/output/languages-dark.svg" />
     <img width="100%" src="https://raw.githubusercontent.com/dhvani1403/dhvani1403/output/languages.svg" alt="Languages across my repositories" />
   </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhvani1403/dhvani1403/output/activity-dark.svg" />
-    <img width="100%" src="https://raw.githubusercontent.com/dhvani1403/dhvani1403/output/activity.svg" alt="Contributions per day, last 30 days" />
-  </picture>
 </p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhvani1403/dhvani1403/output/github-snake-dark.svg" />
-    <img width="100%" src="https://raw.githubusercontent.com/dhvani1403/dhvani1403/output/github-snake.svg" alt="Contribution snake" />
-  </picture>
-</p>
-
-<sub>Cards are rebuilt daily by <a href=".github/workflows/profile.yml">a GitHub Action</a> from public GitHub data.</sub>
