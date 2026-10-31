@@ -57,29 +57,6 @@ I'm a data scientist who likes working close to the product. I take a messy ques
 
 ---
 
-### 🚀 Products and other work
-
-| | What it is | Where it went |
-|---|---|---|
-| **Arbiter API** | The API behind SimPPL's social-data platform. It turns raw posts into structured insight using LLMs, retrieval and sentiment analytics. | Piloted with CNN and public-sector teams in New York and Maryland; featured in Nieman Lab |
-| **InfluenceCheck** | Sponsorship detection and claim verification for beauty and skincare influencers, across 100 creators and 75+ products | Demoed to MeitY at the India AI Impact Summit and to ASCI |
-| **Ychance** | Ratings for prediction markets on vagueness, manipulation risk and insider-trading risk, with AWS ingestion and LLM scoring | I lead it end to end, from research to pilot interviews |
-| **Iffy News domain scores** | Quality scores for news sites from website metadata and AI, for a client project I led | ~10,000 domains scored |
-| **Agricultural data lake** (Omdena) | ETL from USDA, FAOSTAT, Eurostat, IBGE and APS India into one Parquet lake, plus satellite crop features | 5+ global sources |
-| **It Depends Where They Live** | A survey report on how children aged 8 to 15 in Delhi, Lucknow and Surat use social media | 900+ respondents |
-
----
-
-### 📄 Research
-
-1. **Can User Controls Benefit Value Creation on Platforms?**<br/>**Shah, D.**, Mehta, S. · *DPE Forum, Germany* · accepted<br/><sub>A matched causal study of 10,712 Bluesky users. Presented to Google, Bluesky, Stanford Trust &amp; Safety and Boston University.</sub>
-2. **An Intelligent Framework for Non-Parametric Test Prediction and Execution Using Machine Learning**<br/>**Shah, D.**, Chandaria, D., Shah, H., Patel, J. · *Springer*, Vol. 1748, Issue 21 (2026)
-3. **Multilingual Phishing Analysis: Feature-Based Scoring and Level Classification**<br/>Shah, H., Sanghvi, D., **Shah, D.**, Patel, J., Sawant, V., Satam, P. · *IEEE Xplore*, Issue 23 (2026)
-4. **Stock Market Prediction Using News API and Deep Learning Algorithms**<br/>Shah, H., **Shah, D.**, Parekh, D., Patel, J., Sharma, R. · *CRC Press*, Vol. 1 (2026)
-5. **AQI Insight**<br/>**Shah, D.**, Shah, H., Parekh, D., Patel, J. · accepted for publication
-
----
-
 ### 🛠️ Tools I use
 
 <p align="center">
@@ -94,7 +71,15 @@ I'm a data scientist who likes working close to the product. I take a messy ques
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
 </p>
 
+---
+
+### 📈 My year on GitHub
+
 <p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhvani1403/dhvani1403/output/contributions-dark.svg" />
+    <img width="100%" src="https://raw.githubusercontent.com/dhvani1403/dhvani1403/output/contributions.svg" alt="Contributions in the last year" />
+  </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhvani1403/dhvani1403/output/languages-dark.svg" />
     <img width="100%" src="https://raw.githubusercontent.com/dhvani1403/dhvani1403/output/languages.svg" alt="Languages across my repositories" />

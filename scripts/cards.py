@@ -21,11 +21,13 @@ THEMES = {
         "bg": "#ffffff", "border": "#d0d7de", "title": "#1e5a52", "ink": "#1f2328",
         "muted": "#59636e", "bar": "#1e5a52", "axis": "#d0d7de", "empty": "#e8eeec",
         "langs": ["#2a78d6", "#eb6834", "#1baf7a"], "other": "#898781",
+        "heat": ["#eef1f0", "#b9dfc9", "#6dbb94", "#2f8a6a", "#1e5a52"],
     },
     "dark": {
         "bg": "#0d1117", "border": "#30363d", "title": "#79c7b8", "ink": "#e6edf3",
         "muted": "#9198a1", "bar": "#79c7b8", "axis": "#30363d", "empty": "#21262d",
         "langs": ["#3987e5", "#d95926", "#199e70"], "other": "#898781",
+        "heat": ["#161b22", "#1b4239", "#2a6e5d", "#47a389", "#79c7b8"],
     },
 }
 # Colour follows the language, not its rank, so a re-ranking never repaints a bar.
@@ -44,14 +46,15 @@ def fetch(url, accept="application/vnd.github+json"):
 
 
 def contributions(user):
-    """{date: count} for the last year, read from the public contribution calendar."""
+    """({date: count}, {date: level 0-4}) for the last year, from the public contribution calendar.
+    Levels are GitHub's own buckets, so the heatmap shades match the profile's graph."""
     html = fetch(f"https://github.com/users/{user}/contributions", accept="text/html")
-    dates = dict(re.findall(r'data-date="(\d{4}-\d\d-\d\d)" id="([^"]+)"', html))
+    cells = re.findall(r'data-date="(\d{4}-\d\d-\d\d)" id="([^"]+)" data-level="(\d)"', html)
     by_id = {}
     for for_id, text in re.findall(r'<tool-tip[^>]*for="([^"]+)"[^>]*>([^<]*)</tool-tip>', html):
         m = re.match(r"([\d,]+) contribution", text)
         by_id[for_id] = int(m.group(1).replace(",", "")) if m else 0
-    return {d: by_id.get(i, 0) for d, i in dates.items()}
+    return {d: by_id.get(i, 0) for d, i, _ in cells}, {d: int(lv) for d, _, lv in cells}
 
 
 def streaks(days):
@@ -191,10 +194,47 @@ def activity_card(t, days, span=30):
     return frame(t, w, h, "Contributions per day", body)
 
 
+def heatmap_card(t, days, levels):
+    dates = sorted(days)
+    first, last = dt.date.fromisoformat(dates[0]), dt.date.fromisoformat(dates[-1])
+    start = first - dt.timedelta(days=(first.weekday() + 1) % 7)  # weeks start on Sunday
+    cols = (last - start).days // 7 + 1
+
+    w, x0, y0 = 920, 60, 74
+    step = min(16, (w - x0 - 24) / cols)
+    cell = step - 3
+    body = ""
+    for row, name in ((1, "Mon"), (3, "Wed"), (5, "Fri")):
+        body += f'<text x="24" y="{y0 + row * step + cell - 2:.1f}" font-size="11" fill="{t["muted"]}">{name}</text>'
+    last_label = -3
+    for d in dates:
+        day = dt.date.fromisoformat(d)
+        col, row = (day - start).days // 7, (day.weekday() + 1) % 7
+        x, y = x0 + col * step, y0 + row * step
+        n = days[d]
+        tip = f"{n} contribution{'s' if n != 1 else ''} on {day:%b %d, %Y}"
+        body += (
+            f'<rect x="{x:.1f}" y="{y:.1f}" width="{cell:.1f}" height="{cell:.1f}" rx="2.5" '
+            f'fill="{t["heat"][levels[d]]}"><title>{tip}</title></rect>'
+        )
+        # label a month on the first week that contains its 1st
+        if row == 0 and day.day <= 7 and col - last_label >= 3:
+            body += f'<text x="{x:.1f}" y="{y0 - 10}" font-size="11" fill="{t["muted"]}">{day:%b}</text>'
+            last_label = col
+    ly = y0 + 7 * step + 16
+    lx = x0 + cols * step - 3 - 5 * step - 30
+    body += f'<text x="{lx - 6:.1f}" y="{ly + cell - 2:.1f}" font-size="11" text-anchor="end" fill="{t["muted"]}">Less</text>'
+    for i, c in enumerate(t["heat"]):
+        body += f'<rect x="{lx + i * step:.1f}" y="{ly:.1f}" width="{cell:.1f}" height="{cell:.1f}" rx="2.5" fill="{c}"/>'
+    body += f'<text x="{lx + 5 * step + 3:.1f}" y="{ly + cell - 2:.1f}" font-size="11" fill="{t["muted"]}">More</text>'
+    total = sum(days.values())
+    return frame(t, w, int(ly + cell + 20), f"{total:,} contributions in the last year", body)
+
+
 def main():
     user, out = sys.argv[1], sys.argv[2]
     os.makedirs(out, exist_ok=True)
-    days = contributions(user)
+    days, levels = contributions(user)
     stats = repo_stats(user)
     for mode, t in THEMES.items():
         suffix = "" if mode == "light" else "-dark"
@@ -202,6 +242,7 @@ def main():
             ("stats", stats_card(t, stats, days)),
             ("languages", languages_card(t, stats["langs"])),
             ("activity", activity_card(t, days)),
+            ("contributions", heatmap_card(t, days, levels)),
         ):
             with open(os.path.join(out, f"{name}{suffix}.svg"), "w") as f:
                 f.write(svg)
