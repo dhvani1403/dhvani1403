@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Dhvani 👋
+# Hi, I'm Dhvani
 
 <a href="https://github.com/dhvani1403">
   <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&duration=3200&pause=900&color=2E8B7A&center=true&vCenter=true&width=620&lines=Product+Data+Scientist+%40+SimPPL;Research+on+online+platforms+%26+trust+and+safety;Building+responsible+AI+for+healthcare" alt="Typing intro" />
@@ -17,47 +17,52 @@
 
 I'm a data scientist who likes working close to the product. I take a messy question about how people use technology, find out what the data can really say about it, and then build the tool or analysis that helps a team act on the answer. My work so far is about half research and half engineering.
 
-- 🔭 **Now:** Product Data Scientist at [SimPPL](https://simppl.org/team), building research-driven products on social data
-- 🎓 **Studied:** BTech in Information Technology, DJSCE Mumbai (2022–26)
-- 📄 **Research:** 5 papers published or accepted, with Springer, IEEE Xplore, CRC Press and the DPE Forum
-- 🗣️ **Presented to:** Google, Stanford Trust & Safety, Bluesky and Boston University; my work has been piloted with CNN and featured by Nieman Lab
-- 🤝 **Open to:** research collaborations and conversations with people building startups
-- 🌐 **More about me:** [dhvani-shah.vercel.app](https://dhvani-shah.vercel.app)
+- I work as a Product Data Scientist at [SimPPL](https://simppl.org/team), building research-driven products on social data.
+- I studied Information Technology at DJSCE Mumbai (BTech, 2022–26).
+- I have 5 papers published or accepted, with Springer, IEEE Xplore, CRC Press and the DPE Forum.
+- I've presented my work to Google, Stanford Trust & Safety, Bluesky and Boston University. It has been piloted with CNN and featured by Nieman Lab.
+- I'm open to research collaborations and to talking with people building startups.
 
 ---
 
-### ✨ Featured projects
+### Featured projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/dhvani1403/TrialSafe">🩺 TrialMatch</a></h4>
-      <p>An AI clinical-trial matcher. It reads ClinicalTrials.gov eligibility fine print, checks every rule against a patient's profile, ranks open studies near them and explains each match in plain language.</p>
-      <p>📈 Tested on 75 real patient cases (TREC 2021): NDCG@10 rose from 0.42 to 0.53 once the ranker learned from expert labels</p>
-      <p>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-        <img src="https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="pgvector" />
-        <img src="https://img.shields.io/badge/LLMs-1e5a52?style=flat-square" alt="LLMs" />
-      </p>
+      <h4><a href="https://github.com/dhvani1403/Reliable-Labels">Reliable Labels</a></h4>
+      <p>Conformal prediction for a Hindi–English safety classifier, written from scratch. With one shared threshold, coverage fell to 86% on English fake news while Hindi hostile posts got 93%. Calibrating per language and class closed the gap to 0.1 points without making the prediction sets any bigger.</p>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/dhvani1403/clinical-fairness-audit">⚖️ Hidden Unfairness in Clinical Risk Models</a></h4>
-      <p>Replicates <i>fairness gerrymandering</i> (Kearns et al., 2018) and audits who clinical risk scores miss. It covers 30-day readmission and high healthcare use, and is packaged as an audit tool for quality teams.</p>
-      <p>📈 Among adults with 3+ chronic conditions, the model flags 70% of White patients but only 56% of Hispanic patients</p>
-      <p>
-        <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-        <img src="https://img.shields.io/badge/Fairness-1e5a52?style=flat-square" alt="Fairness" />
-      </p>
+      <h4><a href="https://github.com/dhvani1403/Did-It-Work">Did It Work?</a></h4>
+      <p>Synthetic control written from first principles and checked on simulations and the Proposition 99 study. I used it on Italy's 2023 ChatGPT ban: views of the Italian Wikipedia article on ChatGPT fell 32% below the synthetic control while the ban held, then recovered once access returned.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/dhvani1403/TrialSafe">TrialMatch</a></h4>
+      <p>An AI clinical-trial matcher. It reads ClinicalTrials.gov eligibility criteria, checks each rule against a patient's profile and ranks open studies with plain-language explanations. On 75 real patient cases (TREC 2021), NDCG@10 rose from 0.42 to 0.53 once the ranker learned from expert labels.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/dhvani1403/Clinical-Fairness-Audit">Hidden Unfairness in Clinical Risk Models</a></h4>
+      <p>I replicate <i>fairness gerrymandering</i> (Kearns et al., 2018) and audit who clinical risk scores miss. Among adults with 3+ chronic conditions, the model flags 70% of White patients but only 56% of Hispanic patients.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/dhvani1403/VAE-From-Scratch">VAE from Scratch</a></h4>
+      <p>A variational autoencoder in NumPy with every gradient derived by hand. My gradients match finite differences to within 2 × 10⁻⁸ and PyTorch to within 10⁻¹³ over 1,000 training steps, and the model reaches 99.75 nats per image on MNIST.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/dhvani1403/option-pricing-three-ways">Option Pricing Three Ways</a></h4>
+      <p>European options priced with the Black–Scholes formula, Monte Carlo and a Crank–Nicolson PDE solver, each converging at the rate theory predicts. I then extract the implied volatility surface from real S&P 500 option prices.</p>
     </td>
   </tr>
 </table>
 
 ---
 
-### 🛠️ Tools I use
+### Tools I use
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,postgres,sklearn,pytorch,fastapi,react,nextjs,ts,tailwind,docker,aws,githubactions&perline=12" alt="Tech stack" />
@@ -73,7 +78,7 @@ I'm a data scientist who likes working close to the product. I take a messy ques
 
 ---
 
-### 📈 My year on GitHub
+### My year on GitHub
 
 <p align="center">
   <picture>
