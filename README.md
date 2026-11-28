@@ -19,7 +19,7 @@ I'm a data scientist who likes working close to the product. I take a messy ques
 
 - I work as a Product Data Scientist at [SimPPL](https://simppl.org/team), building research-driven products on social data.
 - I studied Information Technology at DJSCE Mumbai (BTech, 2022–26).
-- I've presented my work to Google, Meta, Stanford Trust & Safety, Bluesky and Boston University. Arbiter, which I led at SimPPL, has been piloted with CNN and public-sector teams in New York and Maryland, is used across 40 countries and was featured by Nieman Lab.
+- I've presented my work to Google, Meta, Stanford Trust & Safety, Bluesky and Boston University. Products I've built have been piloted with CNN and public-sector teams in New York and Maryland, used across 40 countries and featured by Nieman Lab.
 - I'm open to research collaborations and to talking with people building startups.
 
 ---
