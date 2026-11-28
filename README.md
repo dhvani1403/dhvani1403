@@ -3,7 +3,7 @@
 # Hi, I'm Dhvani
 
 <a href="https://github.com/dhvani1403">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&duration=3200&pause=900&color=2E8B7A&center=true&vCenter=true&width=620&lines=Product+Data+Scientist+%40+SimPPL;Research+on+online+platforms+%26+trust+and+safety;Building+responsible+AI+for+healthcare" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&duration=3200&pause=900&color=2E8B7A&center=true&vCenter=true&width=620&lines=Product+Data+Scientist+%40+SimPPL;Research+on+how+people+use+social+platforms;Building+responsible+AI+for+healthcare" alt="Typing intro" />
 </a>
 
 <p>
@@ -19,8 +19,7 @@ I'm a data scientist who likes working close to the product. I take a messy ques
 
 - I work as a Product Data Scientist at [SimPPL](https://simppl.org/team), building research-driven products on social data.
 - I studied Information Technology at DJSCE Mumbai (BTech, 2022–26).
-- I have 5 papers published or accepted, with Springer, IEEE Xplore, CRC Press and the DPE Forum.
-- I've presented my work to Google, Stanford Trust & Safety, Bluesky and Boston University. It has been piloted with CNN and featured by Nieman Lab.
+- I've presented my work to Google, Meta, Stanford Trust & Safety, Bluesky and Boston University. Arbiter, the API I led at SimPPL, has been piloted with CNN and public-sector teams in New York and Maryland, is used across 40 countries and was featured by Nieman Lab.
 - I'm open to research collaborations and to talking with people building startups.
 
 ---
